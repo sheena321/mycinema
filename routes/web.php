@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('first','login');
+Route::view('second','registration');
