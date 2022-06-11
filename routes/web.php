@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::view('first','login');
-Route::view('second','registration');
+Route::view('second','admin');
+Route::view('third','customer');
+Route::view('sample','sample');
